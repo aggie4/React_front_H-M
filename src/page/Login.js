@@ -12,7 +12,6 @@ const Login = ({ setAuthenticate }) => {
     const navigate = useNavigate();
     const loginUser = (event) => {
         event.preventDefault();
-        console.log('뭐가 보임?');
         setAuthenticate(true);
         navigate('/');
     };
